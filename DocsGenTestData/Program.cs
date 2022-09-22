@@ -43,8 +43,8 @@ namespace DocsGenTestData {
                 }
             }
 
-            Console.WriteLine($"Audi {audi.Type}\nFastest: {audiFastest}\nMost Expensive: {audiMostExpensive}\n");
-            Console.WriteLine($"Tesla {tesla.Type}\nFastest: {teslaFastest}\nMost Expensive: {teslaMostExpensive}\n");
+            Console.WriteLine($"Audi {audi.Type}: {audiDescription}\nFastest: {audiFastest}\nMost Expensive: {audiMostExpensive}\n");
+            Console.WriteLine($"Tesla {tesla.Type}: {teslaDescription}\nFastest: {teslaFastest}\nMost Expensive: {teslaMostExpensive}\n");
 
             Console.ReadLine();
         }
